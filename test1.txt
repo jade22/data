@@ -1,0 +1,2290 @@
+WEBVTT
+
+1
+00:01:30.990 --> 00:01:32.070
+Victor Yu: Hello everyone.
+
+2
+00:01:33.630 --> 00:01:34.470
+Victor Yu: Welcome back.
+
+3
+00:01:38.820 --> 00:01:46.110
+Victor Yu: So last week we create our first Java program using a text editor.
+
+4
+00:01:48.060 --> 00:01:49.890
+Victor Yu: And J show
+
+5
+00:01:54.840 --> 00:01:56.370
+Victor Yu: So we analyze
+
+6
+00:01:58.110 --> 00:01:59.490
+Victor Yu: Our first Java program.
+
+7
+00:02:00.630 --> 00:02:02.100
+Victor Yu: Let's take another look.
+
+8
+00:02:15.090 --> 00:02:15.360
+Victor Yu: All right.
+
+9
+00:02:35.760 --> 00:02:38.250
+Victor Yu: Is our entire programs.
+
+10
+00:02:46.380 --> 00:02:47.400
+Victor Yu: Alright, so this is
+
+11
+00:02:49.560 --> 00:02:52.530
+Victor Yu: Our first programs, as you see,
+
+12
+00:02:53.910 --> 00:02:57.420
+Victor Yu: The main method contains a single line.
+
+13
+00:03:00.480 --> 00:03:05.010
+Victor Yu: System out, putting line. Hello World in double quotes
+
+14
+00:03:07.230 --> 00:03:09.420
+Victor Yu: The text in a double quotes
+
+15
+00:03:12.270 --> 00:03:13.890
+Victor Yu: Is called a string.
+
+16
+00:03:15.360 --> 00:03:16.260
+Victor Yu: The double quotes
+
+17
+00:03:17.730 --> 00:03:21.090
+Victor Yu: Tells the programs or computers.
+
+18
+00:03:22.440 --> 00:03:23.550
+Victor Yu: To interpret it.
+
+19
+00:03:24.570 --> 00:03:26.460
+Victor Yu: As a string liberals
+
+20
+00:03:29.580 --> 00:03:36.450
+Victor Yu: This is an important concept and we will talk more about the string as a data type.
+
+21
+00:03:37.710 --> 00:03:38.850
+Victor Yu: in later chapters.
+
+22
+00:03:45.780 --> 00:03:46.350
+Victor Yu: So,
+
+23
+00:03:47.430 --> 00:03:49.050
+Victor Yu: A few thing that we've noticed
+
+24
+00:03:55.380 --> 00:03:56.400
+Victor Yu: There's some keywords.
+
+25
+00:03:57.840 --> 00:04:00.600
+Victor Yu: That are reserved just for Java program.
+
+26
+00:04:09.300 --> 00:04:19.590
+Victor Yu: So you have class. Oh, let's start with the beginning cares, right, we have the the keyword public class.
+
+27
+00:04:20.790 --> 00:04:21.270
+Victor Yu: Voice
+
+28
+00:04:22.590 --> 00:04:23.250
+Victor Yu: And me.
+
+29
+00:04:24.990 --> 00:04:25.860
+Victor Yu: These are
+
+30
+00:04:27.420 --> 00:04:31.260
+Victor Yu: The keywords that are reserved for Java programming language.
+
+31
+00:04:33.030 --> 00:04:35.160
+Victor Yu: They mean something to the Java program.
+
+32
+00:04:37.050 --> 00:04:44.610
+Victor Yu: So when we write program, we should not use these keywords for any other purposes.
+
+33
+00:04:48.900 --> 00:04:56.040
+Victor Yu: Alright, so let's take a step back and think about what we have done was our first programs.
+
+34
+00:04:57.750 --> 00:05:00.270
+Victor Yu: Well, first of all, we wanted to
+
+35
+00:05:02.640 --> 00:05:03.570
+Victor Yu: To write a program
+
+36
+00:05:05.190 --> 00:05:14.670
+Victor Yu: That does something. And this is something is to display. Hello, whoever you are on a console under the monitors.
+
+37
+00:05:16.620 --> 00:05:17.400
+Victor Yu: So this is
+
+38
+00:05:21.030 --> 00:05:26.310
+Victor Yu: The problems, right. The problem that we need to solve was the Java program.
+
+39
+00:05:30.150 --> 00:05:40.920
+Victor Yu: So take it to a more abstract levels to write any programs, you first have to understand what the problem is, what is the problem that you wanted to solve.
+
+40
+00:05:43.020 --> 00:05:49.860
+Victor Yu: And the second step is to come up with the steps necessary to carry out
+
+41
+00:05:53.910 --> 00:05:54.540
+Victor Yu: Or to
+
+42
+00:05:55.950 --> 00:05:59.790
+Victor Yu: To perform the task in order to reach the goal.
+
+43
+00:06:01.590 --> 00:06:08.700
+Victor Yu: Okay, since this is only one line of code. It doesn't actually do much interesting things here.
+
+44
+00:06:10.920 --> 00:06:13.530
+Victor Yu: So what do you want to say print
+
+45
+00:06:14.820 --> 00:06:15.540
+Victor Yu: Hello.
+
+46
+00:06:19.980 --> 00:06:21.570
+Victor Yu: Print carry to buy characters.
+
+47
+00:06:22.860 --> 00:06:23.730
+Victor Yu: Well, we could
+
+48
+00:06:25.560 --> 00:06:30.150
+Victor Yu: modify our programs by calling system output.
+
+49
+00:06:31.650 --> 00:06:32.340
+Victor Yu: quitline
+
+50
+00:06:35.190 --> 00:06:37.050
+Victor Yu: Five times exactly five times.
+
+51
+00:06:38.220 --> 00:06:41.130
+Victor Yu: As you can see, product line.
+
+52
+00:06:44.640 --> 00:06:46.320
+Victor Yu: And he in double quotes
+
+53
+00:06:48.150 --> 00:06:53.130
+Victor Yu: He in double quotes L in double quotes, etc.
+
+54
+00:06:55.110 --> 00:06:58.170
+Victor Yu: So this will give you the exact same result.
+
+55
+00:07:02.580 --> 00:07:09.570
+Victor Yu: However, this way, it will print each character and its online in other ways.
+
+56
+00:07:10.650 --> 00:07:11.460
+Victor Yu: To the user
+
+57
+00:07:12.720 --> 00:07:13.980
+Victor Yu: It prints hello
+
+58
+00:07:15.420 --> 00:07:16.200
+Victor Yu: Vertically
+
+59
+00:07:21.990 --> 00:07:25.350
+Victor Yu: Now this line is a functions.
+
+60
+00:07:32.940 --> 00:07:34.620
+Victor Yu: That is very versatile.
+
+61
+00:07:39.630 --> 00:07:41.970
+Victor Yu: In addition to take a string.
+
+62
+00:07:42.990 --> 00:07:43.980
+Victor Yu: In a double quote
+
+63
+00:07:45.240 --> 00:07:46.530
+Victor Yu: It can also take
+
+64
+00:07:48.420 --> 00:07:51.390
+Victor Yu: And expressions for example.
+
+65
+00:07:54.780 --> 00:07:59.040
+Victor Yu: Here we passed three plus four plus five.
+
+66
+00:08:00.780 --> 00:08:06.840
+Victor Yu: So what is this. This is an expression expression. We will talk more about that later.
+
+67
+00:08:10.650 --> 00:08:11.700
+Victor Yu: Consists of
+
+68
+00:08:13.830 --> 00:08:14.610
+Victor Yu: Values.
+
+69
+00:08:15.660 --> 00:08:17.250
+Victor Yu: And operators.
+
+70
+00:08:18.600 --> 00:08:23.790
+Victor Yu: So if you have elementary school math knowledge.
+
+71
+00:08:24.840 --> 00:08:27.810
+Victor Yu: You should easily be able to solve this
+
+72
+00:08:31.380 --> 00:08:37.950
+Victor Yu: Now, solve. I would say get the value of this expression three plus four plus five.
+
+73
+00:08:39.270 --> 00:08:39.480
+I
+
+74
+00:08:42.240 --> 00:08:47.520
+Victor Yu: Bypassing three plus four plus five to print line functions.
+
+75
+00:08:49.740 --> 00:08:51.810
+Victor Yu: Java is going to display.
+
+76
+00:08:53.730 --> 00:09:13.020
+Victor Yu: The sum of these three values. So in other words, expression evaluates to be a value. Right. So you have three values and you add them together and you get another value which is the sum of the two and you can easily test. This was a j shell.
+
+77
+00:09:15.000 --> 00:09:18.420
+Victor Yu: Okay, so what you what you get.
+
+78
+00:09:19.770 --> 00:09:25.380
+Victor Yu: As a result of these two lines is my lucky number is one to
+
+79
+00:09:28.050 --> 00:09:30.900
+Victor Yu: Notice here. There's no space between is
+
+80
+00:09:32.430 --> 00:09:37.980
+Victor Yu: And 12
+
+81
+00:09:44.280 --> 00:09:45.660
+Victor Yu: So why is that
+
+82
+00:09:47.280 --> 00:09:51.660
+Victor Yu: Well, if you look at the first line carefully, you notice
+
+83
+00:09:53.490 --> 00:09:56.730
+Victor Yu: It's not point like it's Preet without l n
+
+84
+00:09:58.560 --> 00:10:00.480
+Victor Yu: So this is actually a different functions.
+
+85
+00:10:02.730 --> 00:10:05.580
+Victor Yu: The difference between print and print line is
+
+86
+00:10:07.320 --> 00:10:13.770
+Victor Yu: The print line functions automatically insert a new line characters at the end.
+
+87
+00:10:16.170 --> 00:10:18.270
+Victor Yu: Because the first line does not
+
+88
+00:10:19.440 --> 00:10:27.510
+Victor Yu: Have LN, it does not automatically insert new line character. So therefore, the second light.
+
+89
+00:10:29.010 --> 00:10:37.170
+Victor Yu: Is going to be displayed right after the first line my lucky number is. And then notice here, there's no space in there.
+
+90
+00:10:38.250 --> 00:10:38.610
+Victor Yu: Right.
+
+91
+00:10:40.740 --> 00:10:45.900
+Victor Yu: So when the next line is called or is executed.
+
+92
+00:10:47.520 --> 00:10:53.550
+Victor Yu: The result is going to be put it right next to his and therefore
+
+93
+00:10:57.180 --> 00:10:58.080
+Victor Yu: No space.
+
+94
+00:11:00.390 --> 00:11:01.170
+Victor Yu: Is displayed
+
+95
+00:11:02.490 --> 00:11:05.430
+Victor Yu: Okay, so we can actually manipulate the
+
+96
+00:11:07.440 --> 00:11:12.210
+Victor Yu: The statements by making some changes. So what if you say
+
+97
+00:11:17.850 --> 00:11:23.400
+Victor Yu: I'm intentionally say remove one of the double quotes
+
+98
+00:11:25.050 --> 00:11:25.380
+Victor Yu: Or
+
+99
+00:11:26.760 --> 00:11:31.080
+Victor Yu: Deliberately spell a function name incorrectly.
+
+100
+00:11:32.340 --> 00:11:38.580
+Victor Yu: Like system out you leave out the tea from out
+
+101
+00:11:39.690 --> 00:11:41.790
+Victor Yu: So what happened. Well, this is
+
+102
+00:11:44.130 --> 00:11:59.520
+Victor Yu: Eight and in a syntax errors that will be detected by the compiler, the compiler will scan through your programs and flag out those syntax errors.
+
+103
+00:12:01.980 --> 00:12:05.400
+Victor Yu: Compute compiler will not complete. The compilations
+
+104
+00:12:07.350 --> 00:12:11.160
+Victor Yu: Before these syntax errors are fixed.
+
+105
+00:12:12.990 --> 00:12:18.570
+Victor Yu: So this is one type of errors syntax error. It's an easy easy one to to detect
+
+106
+00:12:22.290 --> 00:12:25.530
+Victor Yu: There's another kind of errors that you may run into
+
+107
+00:12:29.910 --> 00:12:34.440
+Victor Yu: The kind of errors that only occurs during runtime.
+
+108
+00:12:35.610 --> 00:12:42.810
+Victor Yu: You can compile the program successfully without any errors. However, when you run it.
+
+109
+00:12:46.350 --> 00:12:47.730
+Victor Yu: It triggers in errors.
+
+110
+00:12:48.960 --> 00:12:50.760
+Victor Yu: So this is runtime errors.
+
+111
+00:12:52.140 --> 00:12:53.550
+Victor Yu: For example, the line here.
+
+112
+00:13:02.010 --> 00:13:14.430
+Victor Yu: These kinds of errors, actually the second line here. Let's see what's wrong with this system. I'll print line. Hello World. Anyone can kind of detect what is wrong with this.
+
+113
+00:13:17.580 --> 00:13:19.530
+Victor Yu: Well, just by
+
+114
+00:13:20.880 --> 00:13:28.260
+Victor Yu: Looking at this line alone, probably not. Not much. You have to have a context so
+
+115
+00:13:29.790 --> 00:13:39.510
+Victor Yu: We're going to talk more about those those runtime error in a bit more detail later, but however if you say, for example, just
+
+116
+00:13:41.340 --> 00:13:44.940
+Victor Yu: Have this line of code without any context.
+
+117
+00:13:47.100 --> 00:13:55.770
+Victor Yu: Or in the wrong place. Well, then it will cause in logical errors right well under Slater's but these kind of error.
+
+118
+00:13:57.420 --> 00:14:04.650
+Victor Yu: Um, what difficult to detect because compiler will not flag them right. It only occurs at the runtime.
+
+119
+00:14:08.520 --> 00:14:08.940
+Victor Yu: So,
+
+120
+00:14:11.430 --> 00:14:12.000
+Victor Yu: How do we
+
+121
+00:14:13.320 --> 00:14:23.010
+Victor Yu: overcome these kind of errors runtime errors. Well, testing, isn't it, it is a key, right, we have to test also when you write the programs.
+
+122
+00:14:24.150 --> 00:14:26.850
+Victor Yu: There's some techniques that help you
+
+123
+00:14:28.350 --> 00:14:37.980
+Victor Yu: Kind of keep these runtime error to him and I say keep it to a minimum, not eliminate because let's face it.
+
+124
+00:14:40.200 --> 00:14:43.740
+Victor Yu: Program errors always exists. And that's why we need testing.
+
+125
+00:14:45.870 --> 00:14:47.310
+Victor Yu: Okay, I'm
+
+126
+00:14:48.450 --> 00:14:50.970
+Victor Yu: In program in programming language.
+
+127
+00:14:52.830 --> 00:14:53.820
+Victor Yu: We call
+
+128
+00:14:55.140 --> 00:14:57.870
+Victor Yu: runtime errors and exceptions.
+
+129
+00:14:59.160 --> 00:15:03.420
+Victor Yu: This is just a fancy name for an runtime errors.
+
+130
+00:15:05.160 --> 00:15:07.230
+Victor Yu: So for example, if you have
+
+131
+00:15:09.000 --> 00:15:31.920
+Victor Yu: Passed one over 02 point nine functions, what will happen. Well, there's no syntax error. Right. It's perfectly legal to pass an expression to the point nine. However, one divided by zero or anything divided by zero is not defined.
+
+132
+00:15:34.560 --> 00:15:38.010
+Victor Yu: So this will generate an exception or runtime errors.
+
+133
+00:15:39.900 --> 00:15:53.250
+Victor Yu: And depending on what compilers, you're using, you may get a different message, but it will be similar to to this division by zero errors.
+
+134
+00:15:54.360 --> 00:15:54.690
+Victor Yu: Okay.
+
+135
+00:15:57.780 --> 00:16:02.970
+Victor Yu: Alright, so let's summarize what we have learned from this process.
+
+136
+00:16:05.070 --> 00:16:08.490
+Victor Yu: In order to write a program
+
+137
+00:16:12.330 --> 00:16:13.470
+Victor Yu: You need to have
+
+138
+00:16:15.690 --> 00:16:22.650
+Victor Yu: Very clear instructions to the computer because computer is not human. It does not take cues.
+
+139
+00:16:24.300 --> 00:16:27.270
+Victor Yu: And we call the sequence of instructions.
+
+140
+00:16:28.470 --> 00:16:29.340
+Victor Yu: Algorithms.
+
+141
+00:16:33.240 --> 00:16:38.730
+Victor Yu: An algorithm must meet three important criteria has
+
+142
+00:16:42.600 --> 00:16:45.000
+Victor Yu: It must be an ambiguous.
+
+143
+00:16:46.350 --> 00:16:51.300
+Victor Yu: I again computer is spirit stupid. It does not take cues.
+
+144
+00:16:52.590 --> 00:16:54.120
+Victor Yu: If you give it an instruction like
+
+145
+00:16:55.320 --> 00:16:56.520
+Victor Yu: Please get me.
+
+146
+00:16:57.540 --> 00:16:58.050
+Victor Yu: A
+
+147
+00:17:00.210 --> 00:17:02.580
+Victor Yu: The forecast for tomorrow's weathers
+
+148
+00:17:05.790 --> 00:17:07.890
+Victor Yu: Or you say,
+
+149
+00:17:10.860 --> 00:17:14.010
+Victor Yu: I'm looking at the dog with one eye.
+
+150
+00:17:15.570 --> 00:17:16.740
+Victor Yu: That's ambiguous right
+
+151
+00:17:18.300 --> 00:17:20.550
+Victor Yu: Looking at the doc was one I
+
+152
+00:17:22.260 --> 00:17:36.600
+Victor Yu: Is me using only one I to look at the dog, or is the dog has only one I write this exists, these kind of ambiguity exists in natural language.
+
+153
+00:17:39.420 --> 00:17:42.330
+Victor Yu: So our job is to translate
+
+154
+00:17:43.500 --> 00:17:46.950
+Victor Yu: Ideas idea into precise.
+
+155
+00:17:48.300 --> 00:17:49.650
+Victor Yu: Computer instructions.
+
+156
+00:17:53.910 --> 00:18:01.890
+Victor Yu: Java programming language contains many language constructs to help us to construct steam it right
+
+157
+00:18:03.090 --> 00:18:04.050
+Victor Yu: an ambiguous.
+
+158
+00:18:06.720 --> 00:18:10.200
+Victor Yu: Character. Number two, it must be executable.
+
+159
+00:18:11.490 --> 00:18:12.540
+Victor Yu: What is executable.
+
+160
+00:18:14.100 --> 00:18:26.550
+Victor Yu: Ultimately you instruction is going to be translated into just digits I last time we look at the way computer stored
+
+161
+00:18:27.960 --> 00:18:28.440
+Data
+
+162
+00:18:31.050 --> 00:18:36.480
+Victor Yu: Data all going to be stored in binary format 01
+
+163
+00:18:37.950 --> 00:18:39.690
+Victor Yu: So ultimately
+
+164
+00:18:41.430 --> 00:18:42.300
+Victor Yu: The computer
+
+165
+00:18:43.440 --> 00:18:46.680
+Victor Yu: Needs instruction that are executable.
+
+166
+00:18:49.770 --> 00:18:53.160
+Victor Yu: Let's look at an example of something that's not executable.
+
+167
+00:18:55.680 --> 00:18:58.140
+Victor Yu: If you say give me a
+
+168
+00:19:00.510 --> 00:19:02.490
+Victor Yu: Better quality something
+
+169
+00:19:04.920 --> 00:19:12.570
+Victor Yu: There's no way the computer can execute this because it's very subjective. What is a better quality product.
+
+170
+00:19:15.120 --> 00:19:15.420
+Victor Yu: Right.
+
+171
+00:19:17.160 --> 00:19:19.410
+Victor Yu: So executable.
+
+172
+00:19:22.350 --> 00:19:23.400
+Victor Yu: Is essential
+
+173
+00:19:24.420 --> 00:19:25.110
+Victor Yu: Finally,
+
+174
+00:19:30.210 --> 00:19:34.380
+Victor Yu: Your instruction must eventually terminate.
+
+175
+00:19:36.360 --> 00:19:44.580
+Victor Yu: In other words, it will give you the answers or it'll give you the answer or complete the job.
+
+176
+00:19:46.410 --> 00:19:47.400
+Victor Yu: It will not
+
+177
+00:19:50.220 --> 00:19:51.540
+Victor Yu: Be an algorithm.
+
+178
+00:19:52.680 --> 00:19:59.250
+Victor Yu: If this instruction does not terminate at some point in time in a futures
+
+179
+00:20:00.540 --> 00:20:01.710
+Victor Yu: Let me give you an example here.
+
+180
+00:20:03.480 --> 00:20:12.120
+Victor Yu: There is an unsolved math problems very famous one. Go backs can gestures. You just write it down.
+
+181
+00:20:17.610 --> 00:20:21.360
+Victor Yu: I don't know if any of you have heard of this is called
+
+182
+00:20:27.420 --> 00:20:30.120
+Victor Yu: Go back a CK
+
+183
+00:20:31.530 --> 00:20:33.600
+Victor Yu: Excuse my bad handwriting.
+
+184
+00:20:39.480 --> 00:20:45.990
+Victor Yu: And you can actually search online. Okay. My computer's short of memory. So it's, it's kind of delayed.
+
+185
+00:20:49.860 --> 00:20:51.240
+Victor Yu: Go back congestion.
+
+186
+00:20:52.650 --> 00:20:53.250
+Victor Yu: Says,
+
+187
+00:20:57.210 --> 00:21:04.080
+Victor Yu: Every even integer greater than two is the sum of two primes.
+
+188
+00:21:05.370 --> 00:21:22.680
+Victor Yu: So, for example, for is an even number that is greater than two. Right. And it is a son of two primes. What is the prime prime is a number that can only be divided by one or itself.
+
+189
+00:21:24.300 --> 00:21:26.610
+Victor Yu: So what is the sun.
+
+190
+00:21:28.530 --> 00:21:33.540
+Victor Yu: Up to primes. Well, two plus two. All right, how about six
+
+191
+00:21:36.330 --> 00:21:38.850
+Victor Yu: Or six could be a sum of three.
+
+192
+00:21:39.990 --> 00:21:40.620
+Victor Yu: And three
+
+193
+00:21:43.830 --> 00:21:55.020
+Victor Yu: And eight would be what five plus three. Hey, you can go on and on and off. Now go bags conjectures.
+
+194
+00:21:58.620 --> 00:21:59.130
+Victor Yu: Ask
+
+195
+00:22:00.240 --> 00:22:03.180
+Victor Yu: Is it true for all the numbers.
+
+196
+00:22:05.520 --> 00:22:06.750
+Victor Yu: Or is it always true.
+
+197
+00:22:07.950 --> 00:22:09.570
+Victor Yu: Well, this is an unsolved.
+
+198
+00:22:10.740 --> 00:22:11.700
+Victor Yu: Math problems.
+
+199
+00:22:14.190 --> 00:22:18.030
+Victor Yu: It, it has been proved up to
+
+200
+00:22:20.820 --> 00:22:21.870
+Victor Yu: Four times
+
+201
+00:22:24.150 --> 00:22:25.800
+Victor Yu: The 18th 10
+
+202
+00:22:27.540 --> 00:22:33.150
+Victor Yu: But no one has actually proved that is good for everyone. Now, can we
+
+203
+00:22:34.740 --> 00:22:37.110
+Victor Yu: Write a program that solve the problems.
+
+204
+00:22:40.170 --> 00:23:01.710
+Victor Yu: Well, you can develop an algorithm. Right. Well, obviously the you can write the algorithm that does the things right, just by checking if a an even number that is greater than two is a sum of two plus two, or is it is a sum of two primes and go on and on and on.
+
+205
+00:23:02.880 --> 00:23:08.370
+Victor Yu: And it's executable because each individual expression can result
+
+206
+00:23:10.140 --> 00:23:13.140
+Victor Yu: Result in a valley, however.
+
+207
+00:23:14.400 --> 00:23:21.000
+Victor Yu: It does not too many computer does not know when to terminate right because you say,
+
+208
+00:23:22.230 --> 00:23:25.920
+Victor Yu: All of the result is a true it's always true.
+
+209
+00:23:35.280 --> 00:23:38.880
+Victor Yu: Okay, so you get an idea of what is
+
+210
+00:23:41.340 --> 00:23:42.300
+Victor Yu: writing programs.
+
+211
+00:23:46.710 --> 00:23:53.070
+Victor Yu: One of the key thing that you need to do is to come up with an algorithm.
+
+212
+00:24:02.220 --> 00:24:03.030
+Victor Yu: Here's another
+
+213
+00:24:05.010 --> 00:24:06.360
+Victor Yu: More realistic problems.
+
+214
+00:24:08.520 --> 00:24:10.350
+Victor Yu: Say you have
+
+215
+00:24:12.150 --> 00:24:18.390
+Victor Yu: Put in the bank $10,000 as an initial investment.
+
+216
+00:24:20.970 --> 00:24:24.900
+Victor Yu: And bank pays you 5%
+
+217
+00:24:25.950 --> 00:24:26.910
+Victor Yu: annual interest.
+
+218
+00:24:28.950 --> 00:24:35.700
+Victor Yu: The question is, How many years does it take for the account balance to be double the original
+
+219
+00:24:37.590 --> 00:24:39.930
+Victor Yu: So let's think about this problems.
+
+220
+00:24:41.550 --> 00:24:44.250
+Victor Yu: What does it ask us to do.
+
+221
+00:24:48.330 --> 00:24:49.470
+Victor Yu: It asks us
+
+222
+00:24:50.820 --> 00:25:01.620
+Victor Yu: How many years, or how long does it take for an amount a balance account balance to be double original so this 10,000 is just an example or in
+
+223
+00:25:04.050 --> 00:25:06.660
+Victor Yu: A test in input. Right.
+
+224
+00:25:08.400 --> 00:25:20.340
+Victor Yu: So think about these three criteria, can we come up with an algorithm or instruction that meets the three criteria. First is, it can we
+
+225
+00:25:22.140 --> 00:25:27.300
+Victor Yu: Write and clear on ambiguous instruction step by step.
+
+226
+00:25:28.890 --> 00:25:36.450
+Victor Yu: Well, one way to test this is to do it manually or by hands so we cannot we can list the data in
+
+227
+00:25:38.040 --> 00:25:38.790
+Victor Yu: In the tables.
+
+228
+00:25:40.140 --> 00:25:41.520
+Victor Yu: As you see on a screen.
+
+229
+00:25:43.500 --> 00:25:52.740
+Victor Yu: We use $10,000 as an example. Okay, so in Year Zero. We have 10,000 right
+
+230
+00:25:54.750 --> 00:25:55.440
+Victor Yu: After year
+
+231
+00:25:57.360 --> 00:25:59.550
+Victor Yu: How much money do we have on hand.
+
+232
+00:26:00.570 --> 00:26:02.520
+Victor Yu: That's very simple. You simply add
+
+233
+00:26:03.690 --> 00:26:10.530
+Victor Yu: The interest to the principal, then you get the balance of first year.
+
+234
+00:26:12.060 --> 00:26:17.760
+Victor Yu: And you do the same thing for the second year third year and five a year. If you're four
+
+235
+00:26:20.670 --> 00:26:22.350
+Victor Yu: And then when you see the balance.
+
+236
+00:26:24.000 --> 00:26:28.440
+Victor Yu: Hit a reaches amount that is greater than or equal
+
+237
+00:26:30.180 --> 00:26:33.600
+Victor Yu: To the original amount 10,000 that you know when to stop.
+
+238
+00:26:35.820 --> 00:26:36.360
+Victor Yu: So,
+
+239
+00:26:37.380 --> 00:26:38.130
+Victor Yu: Clearly,
+
+240
+00:26:39.150 --> 00:26:45.480
+Victor Yu: There is a an ending conditions right and that is when the balance becomes
+
+241
+00:26:47.430 --> 00:26:48.900
+Victor Yu: Greater than or equal
+
+242
+00:26:50.610 --> 00:26:57.600
+Victor Yu: To times A 20,000 20,000 which is double the amount right so that's a an Alice
+
+243
+00:27:05.190 --> 00:27:07.950
+Victor Yu: Don't. How do we express the hours.
+
+244
+00:27:09.930 --> 00:27:23.880
+Victor Yu: There are many different ways to express this one of the way is to use the pseudo code was pseudo code is an informal description of a sequence of steps. Well, that's what we. That's what we want. Right.
+
+245
+00:27:26.640 --> 00:27:27.090
+Victor Yu: So,
+
+246
+00:27:28.320 --> 00:27:37.620
+Victor Yu: First, we try to understand what the problems. And then we have to describe how a value is set to change. Now here's the things
+
+247
+00:27:39.000 --> 00:27:39.450
+Victor Yu: When you
+
+248
+00:27:40.860 --> 00:27:48.240
+Victor Yu: Develop and algorithms, you are going to think about two things. First of all,
+
+249
+00:27:49.350 --> 00:27:52.110
+Victor Yu: The procedure in a step by step instructions.
+
+250
+00:27:53.700 --> 00:27:54.510
+Victor Yu: As you
+
+251
+00:27:57.870 --> 00:28:07.920
+Victor Yu: Develop the steps. You also have to take into account of the data that your program needs to be processing.
+
+252
+00:28:09.450 --> 00:28:14.580
+Victor Yu: Remember in last week we talked about computers.
+
+253
+00:28:17.280 --> 00:28:20.190
+Victor Yu: How computer handles data, it must
+
+254
+00:28:21.510 --> 00:28:23.910
+Victor Yu: store the data in computer memories.
+
+255
+00:28:27.750 --> 00:28:28.950
+Victor Yu: I'm talking about
+
+256
+00:28:30.120 --> 00:28:30.780
+Victor Yu: Random
+
+257
+00:28:31.890 --> 00:28:40.650
+Victor Yu: Access memories all the data that a computer need to work was must be loaded into RAM first
+
+258
+00:28:42.690 --> 00:28:46.740
+Victor Yu: The main memory. Right. So this has to be
+
+259
+00:28:48.120 --> 00:28:54.570
+Victor Yu: Dealt was along the way. So in pseudo code. By the way, there's no restrict
+
+260
+00:28:55.680 --> 00:28:56.580
+Victor Yu: Required
+
+261
+00:28:58.530 --> 00:29:00.360
+Victor Yu: formats for pseudo code.
+
+262
+00:29:02.280 --> 00:29:05.310
+Victor Yu: Okay, so you pretty much can use
+
+263
+00:29:07.980 --> 00:29:20.100
+Victor Yu: Any language, however, make sure it's not just complete a natural language because it's ambiguous. We wanted to use a combination of mathematical operators.
+
+264
+00:29:21.570 --> 00:29:22.110
+Victor Yu: And
+
+265
+00:29:24.150 --> 00:29:24.600
+Victor Yu: I'm
+
+266
+00:29:25.770 --> 00:29:36.870
+Victor Yu: Saying simply instruction or simple operation to describe this. So here for example, we could you know stored the the purchase price plus the
+
+267
+00:29:37.800 --> 00:29:50.550
+Victor Yu: Operating costs in a via in a variable total costs, I will talk more about variable later. But think about, think of the variable as a way to stored data.
+
+268
+00:29:51.660 --> 00:30:06.420
+Victor Yu: In computer memories. Okay, so once you have this defined, then you can multiply the balance value by 1.05 which is the which reflects the annual interest rate of 5%
+
+269
+00:30:07.920 --> 00:30:11.310
+Victor Yu: And then remove the first and last character from the word
+
+270
+00:30:13.740 --> 00:30:22.170
+Victor Yu: Okay, etc. I'm not going to read it through. But as you can see a it's fairly flexible with the pseudo code right
+
+271
+00:30:23.940 --> 00:30:27.450
+Victor Yu: The reason we wanted to use pseudo code is first of all it's
+
+272
+00:30:28.500 --> 00:30:32.670
+Victor Yu: more precise than a natural language. Secondly,
+
+273
+00:30:33.780 --> 00:30:53.070
+Victor Yu: It's language neutral. We don't use any language syntax right this same pseudo code can be translated into any language any programming language Java c++ Python or whatever it is. Okay.
+
+274
+00:30:54.120 --> 00:30:57.420
+Victor Yu: And finally, we need to test to see if it's executable so
+
+275
+00:31:00.000 --> 00:31:02.580
+Victor Yu: The best way to do that is to, you know,
+
+276
+00:31:04.080 --> 00:31:05.760
+Victor Yu: Input some sample data.
+
+277
+00:31:06.870 --> 00:31:09.630
+Victor Yu: Like $10,000 as initial values right
+
+278
+00:31:16.260 --> 00:31:16.620
+Victor Yu: And
+
+279
+00:31:18.480 --> 00:31:30.540
+Victor Yu: Finally, it must be terminated somehow does it give us the answer. So what's the criteria. How does the program know went to terminate. Well, it's, it's when
+
+280
+00:31:32.370 --> 00:31:33.510
+Victor Yu: The total cost.
+
+281
+00:31:37.350 --> 00:31:39.390
+Victor Yu: exceeds what two times
+
+282
+00:31:40.680 --> 00:31:41.670
+Victor Yu: The original value.
+
+283
+00:31:46.860 --> 00:31:49.200
+Victor Yu: So in summary, this is
+
+284
+00:31:51.060 --> 00:31:51.960
+Victor Yu: The process.
+
+285
+00:31:53.430 --> 00:31:54.420
+Victor Yu: Or the workflows.
+
+286
+00:31:56.670 --> 00:32:06.660
+Victor Yu: We first try to understand the problems. Then we develop and describe an algorithm using pseudo code or flow chart, which we will see later, you know, class.
+
+287
+00:32:08.010 --> 00:32:12.240
+Victor Yu: And then we test the algorithm with a simple inputs $10,000, for example.
+
+288
+00:32:14.220 --> 00:32:17.670
+Victor Yu: Was that Studio code, we will be able to translate easily
+
+289
+00:32:19.050 --> 00:32:22.650
+Victor Yu: Into any language such as Java c++
+
+290
+00:32:24.840 --> 00:32:31.410
+Victor Yu: And then of course the, the rest of the steps are just compiles and in test your programs.
+
+291
+00:32:34.320 --> 00:32:34.620
+Victor Yu: Okay.
+
+292
+00:32:35.700 --> 00:32:39.750
+Victor Yu: Here's a self check which I will not go through with you.
+
+293
+00:32:43.500 --> 00:32:44.160
+Victor Yu: You should
+
+294
+00:32:45.840 --> 00:32:50.370
+Victor Yu: I mean, test your understanding by working on this offline.
+
+295
+00:32:55.890 --> 00:32:56.760
+Victor Yu: Okay, so
+
+296
+00:32:58.260 --> 00:32:59.250
+Victor Yu: Well, we just wrapped up
+
+297
+00:33:01.020 --> 00:33:01.680
+Victor Yu: Chapter one.
+
+298
+00:33:05.940 --> 00:33:07.170
+Victor Yu: So there seems to be
+
+299
+00:33:10.320 --> 00:33:15.570
+Victor Yu: Someone asked about the the quiz questions so weekly quiz posted
+
+300
+00:33:17.460 --> 00:33:18.750
+Victor Yu: Already in a weekly
+
+301
+00:33:21.660 --> 00:33:25.230
+Victor Yu: Of course contents as part of that weekly contents.
+
+302
+00:33:27.810 --> 00:33:31.050
+Victor Yu: I have set the deadline, sometimes early next week.
+
+303
+00:33:33.390 --> 00:33:41.340
+Victor Yu: Because I wanted you to use the quiz as like a learning tool. Right. That's why it's open book and no time limit, you can
+
+304
+00:33:43.290 --> 00:33:48.390
+Victor Yu: I mean, take time to just work this if you come across a problem that you
+
+305
+00:33:49.650 --> 00:34:03.180
+Victor Yu: That you don't understand or kind of rusty about just go back to the textbook and read it. All right. Now that might be a time lag because you know the time
+
+306
+00:34:04.230 --> 00:34:06.570
+Victor Yu: When I posted to
+
+307
+00:34:10.260 --> 00:34:12.030
+Victor Yu: The quiz is closed.
+
+308
+00:34:13.770 --> 00:34:21.630
+Victor Yu: I mean, I have not covered. A plus A, I am not going to cover every aspects of the textbook, so
+
+309
+00:34:23.370 --> 00:34:27.060
+Victor Yu: Yeah, well, the lecture may not cover some of the
+
+310
+00:34:30.630 --> 00:34:31.410
+Victor Yu: Concepts.
+
+311
+00:34:32.490 --> 00:34:35.700
+Victor Yu: That you should still refer to the textbook.
+
+312
+00:34:39.090 --> 00:34:39.630
+Victor Yu: Okay, well,
+
+313
+00:34:41.190 --> 00:34:43.110
+Victor Yu: With that aside. Let's
+
+314
+00:34:44.310 --> 00:34:51.840
+Victor Yu: Let's start the second chapters fundamental data types. So now that we know a computer programs.
+
+315
+00:34:54.810 --> 00:34:58.680
+Victor Yu: What computer program is about and how we approach.
+
+316
+00:35:01.230 --> 00:35:20.280
+Victor Yu: solving a problem with computer programming. Now let's get a dive deep into the language itself Java program. So in any programming language. We need some kind of data representation that is the the way to stored data.
+
+317
+00:35:21.330 --> 00:35:24.720
+Victor Yu: To retrieve data to structured data.
+
+318
+00:35:30.030 --> 00:35:33.150
+Victor Yu: That's called Data Representation. I remember
+
+319
+00:35:34.560 --> 00:35:38.460
+Victor Yu: Computer only recognize 01
+
+320
+00:35:40.860 --> 00:35:42.480
+Victor Yu: Now for us human.
+
+321
+00:35:44.190 --> 00:35:54.390
+Victor Yu: It will be very difficult to deal with data and the memory. Memory level. Every time we use an input or
+
+322
+00:35:55.680 --> 00:36:05.550
+Victor Yu: Need to store some data. If we will have to work directly with the data at the memory level that will be very common son and error prone so
+
+323
+00:36:07.020 --> 00:36:08.040
+Victor Yu: Programming language.
+
+324
+00:36:09.060 --> 00:36:13.440
+Victor Yu: Usually provide some mechanism for us to manage the data.
+
+325
+00:36:14.910 --> 00:36:15.870
+Victor Yu: So in Java.
+
+326
+00:36:17.460 --> 00:36:19.410
+Victor Yu: Variable is a mechanism.
+
+327
+00:36:21.390 --> 00:36:23.430
+Victor Yu: For your program.
+
+328
+00:36:24.570 --> 00:36:30.600
+Victor Yu: To deal with data when I say do is I mean to store and retrieve, etc.
+
+329
+00:36:33.900 --> 00:36:38.460
+Victor Yu: So most program computer programs hold temporary value in the name storage location.
+
+330
+00:36:39.870 --> 00:36:48.090
+Victor Yu: Named storage means it has a name, and it's a location and it's for storing values.
+
+331
+00:36:52.440 --> 00:36:59.730
+Victor Yu: Programmer named them for easy access you name any way you want, as long as meet
+
+332
+00:37:02.700 --> 00:37:12.270
+Victor Yu: The requirements. There are some requirements as to the naming convention which we'll talk about in the next slide. There are many different ways.
+
+333
+00:37:13.740 --> 00:37:17.670
+Victor Yu: There are many different types of storage to hold different things now.
+
+334
+00:37:19.650 --> 00:37:20.160
+Victor Yu: Why
+
+335
+00:37:21.480 --> 00:37:22.710
+Victor Yu: There are many different types
+
+336
+00:37:23.730 --> 00:37:25.350
+Victor Yu: Because computer needs to know.
+
+337
+00:37:28.200 --> 00:37:29.100
+Victor Yu: How much memory.
+
+338
+00:37:30.120 --> 00:37:32.040
+Victor Yu: To allocate for your data.
+
+339
+00:37:33.630 --> 00:37:33.930
+Victor Yu: So,
+
+340
+00:37:35.850 --> 00:37:39.000
+Victor Yu: In Java data's are divided into
+
+341
+00:37:41.700 --> 00:37:42.930
+Victor Yu: Eight types.
+
+342
+00:37:47.010 --> 00:37:52.020
+Victor Yu: So to use a variable you first declare a variable.
+
+343
+00:37:53.190 --> 00:37:57.480
+Victor Yu: By declaring a variable you tell the computer or compilers.
+
+344
+00:37:58.770 --> 00:38:03.660
+Victor Yu: The size that size of the memory needs to allocate
+
+345
+00:38:05.550 --> 00:38:11.880
+Victor Yu: And it tells or define a name or create a name for that.
+
+346
+00:38:14.400 --> 00:38:18.090
+Victor Yu: For the variables. So two aspects.
+
+347
+00:38:20.340 --> 00:38:25.590
+Victor Yu: Because we wanted to refer to that piece of memories by a snake. It's easy for us to work with.
+
+348
+00:38:30.660 --> 00:38:41.130
+Victor Yu: So like any other language constructs or components of a of a Java program variable is a kind of identify it is a name.
+
+349
+00:38:43.980 --> 00:38:44.310
+Victor Yu: So,
+
+350
+00:38:45.690 --> 00:38:50.970
+Victor Yu: How do you declare variable to declare variable you first specify
+
+351
+00:38:52.530 --> 00:38:53.460
+The type
+
+352
+00:38:54.630 --> 00:38:57.270
+Victor Yu: So therefore type name.
+
+353
+00:39:02.340 --> 00:39:05.220
+Victor Yu: And then you give it a name. So this name.
+
+354
+00:39:06.270 --> 00:39:17.640
+Victor Yu: Must not be one of the key learning keywords. Remember we talked about public class name, etc. These other reserved keywords, they have special meaning to Java program.
+
+355
+00:39:18.540 --> 00:39:31.110
+Victor Yu: So as long as you meet that requirement. You can name your variable any way you want. There's no limit as to how long it could be, it could be as long as you want. Of course it's limited only by your computer memory I
+
+356
+00:39:31.710 --> 00:39:37.980
+Victor Yu: And then don't forget that the variable name is for human reader mostly so therefore
+
+357
+00:39:39.180 --> 00:39:46.560
+Victor Yu: Name it in some meaningful way or in a descriptive way. So here's an example. We declare and a variable.
+
+358
+00:39:48.810 --> 00:39:53.850
+Victor Yu: of type integer i NT is the data type represents
+
+359
+00:39:56.340 --> 00:40:00.840
+Victor Yu: A whole numbers cans put pack is the variable name.
+
+360
+00:40:02.130 --> 00:40:06.300
+Victor Yu: So we give it to just some kind of a name for it.
+
+361
+00:40:07.470 --> 00:40:12.840
+Victor Yu: So from that name. We can tell it's about cans per pack. How many cans.
+
+362
+00:40:14.010 --> 00:40:15.450
+Victor Yu: In a pack right
+
+363
+00:40:17.340 --> 00:40:20.820
+Victor Yu: And then followed by an equal sign and then the numbers.
+
+364
+00:40:22.560 --> 00:40:36.030
+Victor Yu: If you program in the past. This is probably not very strange to you. Okay, so what this basically does is to assign a value six to the variable, okay.
+
+365
+00:40:38.370 --> 00:40:41.520
+Victor Yu: So you read it backwards from right to left.
+
+366
+00:40:43.530 --> 00:40:47.520
+Victor Yu: And don't forget the semi colon here because it's a statement.
+
+367
+00:40:48.990 --> 00:40:58.080
+Victor Yu: By the way, I use statement and expressions somewhat interchangeably. Technically speaking, they are two different things. Right.
+
+368
+00:41:00.870 --> 00:41:04.470
+Victor Yu: Expression stamens represents
+
+369
+00:41:05.640 --> 00:41:07.620
+Victor Yu: A complete executions.
+
+370
+00:41:08.880 --> 00:41:11.760
+Victor Yu: Okay, and a free expression.
+
+371
+00:41:13.980 --> 00:41:15.240
+Victor Yu: represents some kind of value.
+
+372
+00:41:18.360 --> 00:41:26.160
+Victor Yu: Statements to expression. It is roughly what a sentence to a phrase.
+
+373
+00:41:27.720 --> 00:41:36.240
+Victor Yu: Okay. Now, sometimes it's hard to tell. But, uh, definitely. When you see a semi colon, you know, this is a statement.
+
+374
+00:41:37.440 --> 00:41:38.640
+Victor Yu: So this one here.
+
+375
+00:41:40.350 --> 00:41:43.800
+Victor Yu: Integer cans per pack equals six. Actually, I should read it.
+
+376
+00:41:45.570 --> 00:41:53.310
+Victor Yu: Define a variable named cans put pack and assign value six to it. That's how you read it and terminate by semi colons.
+
+377
+00:41:55.350 --> 00:41:56.760
+Victor Yu: Okay, so
+
+378
+00:42:01.260 --> 00:42:05.640
+Victor Yu: Here are a few example of creating variables.
+
+379
+00:42:07.020 --> 00:42:10.170
+Victor Yu: And determine the type of those variables.
+
+380
+00:42:11.280 --> 00:42:12.030
+Victor Yu: Given the problem.
+
+381
+00:42:14.070 --> 00:42:15.600
+Victor Yu: Say a stores.
+
+382
+00:42:17.670 --> 00:42:23.190
+Victor Yu: Offers a six pack of 12 ounce cans for the same price as the two liter bottles.
+
+383
+00:42:24.570 --> 00:42:25.050
+Okay.
+
+384
+00:42:26.070 --> 00:42:26.940
+Victor Yu: What should you buy
+
+385
+00:42:28.590 --> 00:42:29.130
+Victor Yu: So,
+
+386
+00:42:31.020 --> 00:42:32.790
+Victor Yu: In order to solve the problem.
+
+387
+00:42:33.810 --> 00:42:35.040
+Victor Yu: You first think about
+
+388
+00:42:37.800 --> 00:42:41.400
+Victor Yu: The variables that are needed to hold the data.
+
+389
+00:42:42.540 --> 00:42:54.630
+Victor Yu: So what kind of data are we dealing with well here, a number of cans per pack as we saw in the earliest in the previous slides, it's a it's a whole number.
+
+390
+00:42:55.290 --> 00:43:08.130
+Victor Yu: Because can only go by car number you can have a pack that contains, you know, partial can I, so it's gonna be a whole number. What about ounces pecan
+
+391
+00:43:11.220 --> 00:43:13.080
+Victor Yu: Well, this is not so.
+
+392
+00:43:15.300 --> 00:43:22.620
+Victor Yu: clear cut. Well, foot for the sake of discussion. Let's say we decided it's a whole number as well.
+
+393
+00:43:24.960 --> 00:43:33.270
+Victor Yu: How about ounces per bottles. Well, a same thing as the ounces put can so
+
+394
+00:43:34.380 --> 00:43:40.980
+Victor Yu: For the sake of this example, we'll just say it's going to be a number was fraction. So it's not an integer anymore. Right.
+
+395
+00:43:45.450 --> 00:43:46.680
+Victor Yu: Now, as we can see
+
+396
+00:43:49.290 --> 00:43:52.740
+Victor Yu: each variable has an identifier a name and a content.
+
+397
+00:43:55.830 --> 00:44:01.140
+Victor Yu: Typically speaking this line integer cans perfect equals six.
+
+398
+00:44:03.300 --> 00:44:16.920
+Victor Yu: That's two things. It declare a variable was the name can spit back of type integers and assign a value is a second things right. You can sometimes I'm separate the two steps.
+
+399
+00:44:17.970 --> 00:44:20.430
+Victor Yu: By first declaring without giving a value.
+
+400
+00:44:22.080 --> 00:44:28.800
+Victor Yu: Well, maybe you don't have to value or maybe you want to defer to a later time when the value becomes available.
+
+401
+00:44:30.990 --> 00:44:33.090
+Victor Yu: So, too.
+
+402
+00:44:34.110 --> 00:44:35.580
+Victor Yu: I see question coming in.
+
+403
+00:44:39.270 --> 00:44:43.860
+Victor Yu: Is the space between the equal sign option offers yes it's optional.
+
+404
+00:44:47.820 --> 00:44:53.910
+Victor Yu: It's not required. In other words, okay. So let me bring up the
+
+405
+00:44:56.220 --> 00:44:59.010
+Victor Yu: whiteboard here so integer
+
+406
+00:45:01.020 --> 00:45:01.860
+Victor Yu: Here.
+
+407
+00:45:04.770 --> 00:45:05.460
+Pack.
+
+408
+00:45:08.400 --> 00:45:10.170
+Victor Yu: Here we have declare
+
+409
+00:45:11.220 --> 00:45:12.780
+Victor Yu: A variable of integer type
+
+410
+00:45:13.980 --> 00:45:18.000
+Victor Yu: Now we could simply use the semi colon to terminate it
+
+411
+00:45:19.830 --> 00:45:26.430
+Victor Yu: So what does that mean this simply that the clear the variable without initializing or giving it a values.
+
+412
+00:45:29.490 --> 00:45:33.240
+Victor Yu: You can, you can always defer the
+
+413
+00:45:36.270 --> 00:45:43.290
+Victor Yu: Initializing values led states. So let's say many lines later.
+
+414
+00:45:44.610 --> 00:45:46.260
+Victor Yu: I have to value available.
+
+415
+00:45:47.970 --> 00:45:50.580
+Victor Yu: For some reason the AK is missing here.
+
+416
+00:45:53.490 --> 00:45:59.250
+Victor Yu: We can see six notice here the data type is not necessary.
+
+417
+00:46:00.810 --> 00:46:02.250
+Victor Yu: Because it's already declared
+
+418
+00:46:03.720 --> 00:46:19.830
+Victor Yu: And it completely knows what data type it is. So as long as you put six in there or an integer that matches the data type, it will, it might as well just let you do it. Okay, so we call this declaration that clear.
+
+419
+00:46:21.390 --> 00:46:22.830
+Victor Yu: And we call this define
+
+420
+00:46:24.720 --> 00:46:38.010
+Victor Yu: Sometimes we call this initialize would initialize simply means initialize initial value, right, you can always change later so many lines later you said cans papac
+
+421
+00:46:40.350 --> 00:46:42.240
+Victor Yu: What 12 right
+
+422
+00:46:44.130 --> 00:46:44.820
+Victor Yu: So this will
+
+423
+00:46:46.650 --> 00:46:50.400
+Victor Yu: Change the content of cans put back
+
+424
+00:46:51.540 --> 00:46:52.830
+Victor Yu: From six to 12
+
+425
+00:46:54.060 --> 00:46:55.290
+Victor Yu: And you can always change.
+
+426
+00:46:56.700 --> 00:47:02.850
+Victor Yu: If you need it. Right. The same variable whose value, whose content can be changed.
+
+427
+00:47:04.200 --> 00:47:07.020
+Victor Yu: Well, this is a this is why
+
+428
+00:47:08.100 --> 00:47:10.770
+Victor Yu: It's called variable because its value can be changed.
+
+429
+00:47:15.510 --> 00:47:16.050
+Victor Yu: Um,
+
+430
+00:47:18.930 --> 00:47:21.840
+Victor Yu: Another way to think of this variable is
+
+431
+00:47:23.400 --> 00:47:26.460
+Victor Yu: It a parking space in a parking garage.
+
+432
+00:47:27.840 --> 00:47:35.880
+Victor Yu: So most of you have experienced was parking garage right he these cars parked.
+
+433
+00:47:38.460 --> 00:47:40.770
+Victor Yu: In a parking garage with
+
+434
+00:47:42.960 --> 00:47:44.400
+Victor Yu: Some kind of identify it.
+
+435
+00:47:45.510 --> 00:47:54.930
+Victor Yu: Indicating the locations and a type of a car that can be parked. So for example, in this picture, we have
+
+436
+00:47:56.970 --> 00:47:58.050
+Victor Yu: A parking space.
+
+437
+00:47:59.640 --> 00:48:06.690
+Victor Yu: J 053 so the J 053 is just a label.
+
+438
+00:48:09.000 --> 00:48:12.840
+Victor Yu: It's easier for people to identify the location or quickly.
+
+439
+00:48:15.120 --> 00:48:22.890
+Victor Yu: Now this space is for maybe a just a regular car.
+
+440
+00:48:26.010 --> 00:48:29.730
+Victor Yu: So that defines the size, right, obviously.
+
+441
+00:48:31.710 --> 00:48:50.370
+Victor Yu: It will be too small for truck or a bus and will be too big motorcycle or bicycle. It wouldn't make sense. Yeah, it can potentially hold a small value, but a small items, but it would be a waste. It's a waste of your space. So therefore,
+
+442
+00:48:52.320 --> 00:48:57.510
+Victor Yu: It's, it's important that you allocate the space appropriate for your data.
+
+443
+00:48:58.800 --> 00:49:16.590
+Victor Yu: Now here of the current content is Bob Chevy, I can just put anyone car as long as a car, you know that meets the requirements of the space, then it's okay so at this give up at this moment is boss Chevy. The next moment, it could be Mary's
+
+444
+00:49:19.260 --> 00:49:23.850
+Victor Yu: Just make it BMW. It doesn't matter. Right.
+
+445
+00:49:24.930 --> 00:49:26.550
+Victor Yu: So the content can be changed.
+
+446
+00:49:30.900 --> 00:49:47.040
+Victor Yu: Okay, so here are some example of variable declaration and their definition. So some are good. Some are bad quickly glance through the the names. Let's just focus on the two bad one here.
+
+447
+00:49:49.530 --> 00:49:55.440
+Victor Yu: Bottles equal one semi colon. But what is wrong with this statement.
+
+448
+00:49:57.300 --> 00:50:00.480
+Victor Yu: What it defines or initialize the variables, however.
+
+449
+00:50:01.560 --> 00:50:02.340
+Victor Yu: Nowhere.
+
+450
+00:50:04.500 --> 00:50:05.610
+Victor Yu: Is the type
+
+451
+00:50:07.050 --> 00:50:13.860
+Victor Yu: Defined what we're looking for the declaration, it was it was it was, if this were
+
+452
+00:50:16.320 --> 00:50:27.960
+Victor Yu: A second line or the definition, then it's fine. You know, before this line, you have int bottles. Well, then this is fine. However, lack of this
+
+453
+00:50:29.400 --> 00:50:30.210
+Victor Yu: Declaration.
+
+454
+00:50:32.220 --> 00:50:34.980
+Victor Yu: This line becomes invalid.
+
+455
+00:50:37.140 --> 00:50:38.850
+Victor Yu: The next example would be similar.
+
+456
+00:50:40.530 --> 00:50:49.230
+Victor Yu: A well and actually not similar. The second example, a bad example into value equal to in double quotes
+
+457
+00:50:50.520 --> 00:50:51.600
+Victor Yu: What is wrong with this.
+
+458
+00:50:55.080 --> 00:51:02.760
+Victor Yu: Well, what's the Double quote, double quote. Remember represent a string, right. So when you put two
+
+459
+00:51:04.260 --> 00:51:17.250
+Victor Yu: In a double quotes you essentially tell the compiler. This is a string, even though there's one letter, one number, it's still a string a single letter or single numbers strains
+
+460
+00:51:18.990 --> 00:51:30.180
+Victor Yu: Will use assign a strain to an integer. What happened, it doesn't match, right. It's like trying to fitting a truck into a car space.
+
+461
+00:51:31.230 --> 00:51:40.410
+Victor Yu: It wouldn't fit. So the compiler is going to flag this as a syntax errors. It will allow Java is
+
+462
+00:51:41.520 --> 00:51:45.450
+Victor Yu: A strongly typed language it require you to
+
+463
+00:51:47.760 --> 00:51:49.590
+Victor Yu: Provide the value
+
+464
+00:51:51.570 --> 00:52:00.630
+Victor Yu: That matches the type of the variable, okay. Unlike some other language like you know Python is a pearls and some language, they
+
+465
+00:52:02.250 --> 00:52:05.400
+Victor Yu: They don't have that many kind of data types.
+
+466
+00:52:06.690 --> 00:52:21.630
+Victor Yu: So you can just create a variable without the data type. And then the system is going to figure out the actual data type, depending on the value that you provide with Java is not one of them's Java insists that you
+
+467
+00:52:23.190 --> 00:52:25.530
+Victor Yu: assign the value that matches the data types.
+
+468
+00:52:29.670 --> 00:52:30.960
+Victor Yu: Okay, so the question.
+
+469
+00:52:32.310 --> 00:52:36.450
+Victor Yu: Question arises, why we need different data types.
+
+470
+00:52:38.820 --> 00:52:44.100
+Victor Yu: Well, so far, we've seen a integer right there.
+
+471
+00:52:45.420 --> 00:52:54.030
+Victor Yu: A total of eight data types in defining gel. When I say total of eight. I'm talking about the
+
+472
+00:52:56.130 --> 00:52:57.240
+Victor Yu: The primary data.
+
+473
+00:52:58.320 --> 00:53:02.760
+Victor Yu: The primary data's are natively defined in the Java programming language.
+
+474
+00:53:04.410 --> 00:53:11.940
+Victor Yu: They comes was the Java programming language kit. You don't have to define you just need to know that they exists.
+
+475
+00:53:13.080 --> 00:53:28.980
+Victor Yu: So in addition to integer there there's double which is a number was a fraction part. And we also saw stream which is a group of characters. Right. And they're represented by double quotes
+
+476
+00:53:30.540 --> 00:53:40.200
+Victor Yu: So when you define variable. Again, you have to define the data type as well. So why different data types, as I said earlier, I'm
+
+477
+00:53:42.090 --> 00:53:52.950
+Victor Yu: Using the parking lot as as as an analogy here is if you have up if you designate a parking space for car.
+
+478
+00:53:55.260 --> 00:53:56.160
+Victor Yu: Not for anything.
+
+479
+00:53:58.920 --> 00:54:08.880
+Victor Yu: you optimize the storage so people know only car can be parked. There's not a motorcycle, not a truck, not anything else.
+
+480
+00:54:10.020 --> 00:54:10.800
+Victor Yu: Same thing is true.
+
+481
+00:54:11.850 --> 00:54:13.110
+Victor Yu: So different data types.
+
+482
+00:54:14.220 --> 00:54:15.480
+Victor Yu: Cows compilers.
+
+483
+00:54:16.530 --> 00:54:17.520
+Victor Yu: How much space.
+
+484
+00:54:19.020 --> 00:54:22.110
+Victor Yu: Is nice as as necessary for your data.
+
+485
+00:54:25.590 --> 00:54:34.170
+Victor Yu: So here at motorcycle full size electricity. You can you can you can further optimize, you know, the space with storage management.
+
+486
+00:54:36.480 --> 00:54:42.990
+Victor Yu: Okay. One thing, though, is sometimes will you just type in number to compile has to guess what the type it is.
+
+487
+00:54:47.370 --> 00:55:00.150
+Victor Yu: So in these example, UM, WELL, IT'S ACTUALLY, IT'S NOT REALLY. GUESS IT'S WRITTEN because of the calculation hears so amount, for example, six times 12.00 right
+
+488
+00:55:00.600 --> 00:55:14.820
+Victor Yu: I mean it's not something like a guess, or what because a mound must be defined as a type. First, you can simply say AMT equal six times 12 point out that will work. It's not declared
+
+489
+00:55:16.200 --> 00:55:27.300
+Victor Yu: So the question. The real question is really, um, what data type should AMT be, should it be an integers or should it be a double
+
+490
+00:55:27.870 --> 00:55:38.310
+Victor Yu: Because you see a six is an integer and 12 point O is a double. It's a fresh. It's a number with a fractional part. It's a real number, right, how do you
+
+491
+00:55:39.030 --> 00:55:57.450
+Victor Yu: How does the system know what's, what's the resulting okay we'll talk more about this this complication in later slides for now. But here's the thing, the compiler has to kind of guess what the thing is
+
+492
+00:55:59.340 --> 00:56:08.040
+Victor Yu: In order to determine if this is a valid statement. Okay. All right. I'm not talking about storage.
+
+493
+00:56:11.340 --> 00:56:18.630
+Victor Yu: It's easy to calculate or to know the exact size of a variable.
+
+494
+00:56:20.430 --> 00:56:27.270
+Victor Yu: Are required for a variable that's an integer. I'm talking about integer value. So let me just bring up this here.
+
+495
+00:56:32.850 --> 00:56:40.680
+Victor Yu: So let's use integer because kind of simple integer right now I'm in integer
+
+496
+00:56:43.170 --> 00:56:46.860
+Victor Yu: In Java integer is defined as four
+
+497
+00:56:48.330 --> 00:56:50.400
+Victor Yu: Byte space.
+
+498
+00:56:51.540 --> 00:56:53.700
+Victor Yu: Storage Fulbright Fulbright long
+
+499
+00:56:54.810 --> 00:56:58.980
+Victor Yu: Storage, so we know what full bite means right
+
+500
+00:57:00.360 --> 00:57:01.020
+Victor Yu: A bite.
+
+501
+00:57:02.670 --> 00:57:06.120
+Victor Yu: contains eight bits. So let's say this is one bite.
+
+502
+00:57:09.120 --> 00:57:20.910
+Victor Yu: And it has 123412345678 that's one bite right so an integer has up to
+
+503
+00:57:24.090 --> 00:57:25.320
+Victor Yu: Up to four.
+
+504
+00:57:29.130 --> 00:57:31.530
+Victor Yu: bytes of space to hold data.
+
+505
+00:57:32.820 --> 00:57:34.110
+Victor Yu: So what's the maximum
+
+506
+00:57:35.250 --> 00:57:37.080
+Victor Yu: Integer that can be stored
+
+507
+00:57:40.560 --> 00:57:52.680
+Victor Yu: In the space. Well, we can. Well, first of all, we have to, we're talking about binary. So we know zero is zero in binary. Right. And let me just do this.
+
+508
+00:57:55.470 --> 00:57:56.160
+Victor Yu: Binary
+
+509
+00:57:57.570 --> 00:58:00.930
+Victor Yu: A decimal. So if we say zero
+
+510
+00:58:01.950 --> 00:58:04.950
+Victor Yu: In decimal is zero in binary, it's zero.
+
+511
+00:58:06.870 --> 00:58:11.730
+Victor Yu: For one in decimal. He's one and binary is
+
+512
+00:58:12.870 --> 00:58:24.720
+Victor Yu: For two well because there's only one digits. Right. So I mean it's 01. So now in in decimal. It's to how we're in binary. It's going to be one zero.
+
+513
+00:58:25.770 --> 00:58:28.410
+Victor Yu: And three, it's going to be three and
+
+514
+00:58:29.790 --> 00:58:30.330
+Victor Yu: So,
+
+515
+00:58:31.590 --> 00:58:32.670
+Victor Yu: You get the idea here.
+
+516
+00:58:34.080 --> 00:58:35.760
+Victor Yu: Is usually takes more space.
+
+517
+00:58:38.070 --> 00:58:38.640
+Victor Yu: And
+
+518
+00:58:40.320 --> 00:58:52.110
+Victor Yu: The number tends to be longer because you have more digits to store, right, so how long, how big a number than an integer can hold. Well, you can calculate but um
+
+519
+00:58:53.310 --> 00:59:06.870
+Victor Yu: I don't know how many, but you have to like kind of calculate here's so each one of these space can store zero or one. So it will be one one up to
+
+520
+00:59:10.470 --> 00:59:18.180
+Victor Yu: Eight to the power, it will because there's four of them. So it's time for that's equal a time
+
+521
+00:59:19.770 --> 00:59:43.140
+Victor Yu: Right. Well, that's how many spaces that you can you can hold. Now remember in Java. There is no signed or unsigned data type. So therefore, the first race is going to be reserved for the sign, minus, minus, or, you know, negative or positive right so therefore it's going to be a
+
+522
+00:59:45.060 --> 00:59:47.940
+Victor Yu: One space fewer than it actually
+
+523
+00:59:49.410 --> 00:59:49.740
+Victor Yu: See
+
+524
+00:59:50.940 --> 00:59:52.290
+Victor Yu: So this is what the integer
+
+525
+00:59:54.000 --> 00:59:56.580
+Victor Yu: So integer, because there are how many for for
+
+526
+01:00:00.210 --> 01:00:06.630
+Victor Yu: Actually this is yeah this is eight. And then we have sorry this is wrong. Actually, this is a
+
+527
+01:00:07.920 --> 01:00:08.970
+Victor Yu: Two eight
+
+528
+01:00:10.380 --> 01:00:13.290
+Victor Yu: You're going to have to time for so it's going to be
+
+529
+01:00:14.400 --> 01:00:21.240
+Victor Yu: Two to the power of 32 okay it's not this one here. It's this. So that's how long
+
+530
+01:00:23.370 --> 01:00:27.660
+Victor Yu: How many digits. It can store well because the first one is reserved for
+
+531
+01:00:28.710 --> 01:00:39.510
+Victor Yu: Science. So it's going to have only two to the power of 31 that's how many digits. It can, sir. Well, that means some number, some integer
+
+532
+01:00:41.670 --> 01:00:51.450
+Victor Yu: I don't know exactly how we have to convert them, you know, decimal to a binary. Well, let's say, a 10 billion or something right 10 billion.
+
+533
+01:00:54.780 --> 01:01:04.020
+Victor Yu: Well, then it's probably going to be too big to fit into it. How do we deal with this. We're going to address that later. But now think about a
+
+534
+01:01:05.130 --> 01:01:13.620
+Victor Yu: The floating number, the floating number is not so straightforward because let's say here, we have 25 point. Sweet.
+
+535
+01:01:14.790 --> 01:01:25.350
+Victor Yu: This number, how do you store this into the space. What it's a bit more complex to convert this into binary because you have to separate it. Okay.
+
+536
+01:01:27.480 --> 01:01:28.860
+Victor Yu: So the next slides.
+
+537
+01:01:31.710 --> 01:01:36.600
+Victor Yu: Talking about the folding number, the floating number stores.
+
+538
+01:01:38.550 --> 01:01:43.470
+Victor Yu: And the friction points stored as the floating point
+
+539
+01:01:44.580 --> 01:01:57.840
+Victor Yu: So there are actually store in suite for different parts sign man Pisa ratings and exploded. Alright, so it's not necessary to actually understand. I want you to have a high level of understanding of
+
+540
+01:01:59.100 --> 01:02:14.610
+Victor Yu: First of all, you know, this floating number a store differently than integers, because there are four different parts. Okay. So for example, this minus five is going to be stored in this way. So, therefore, it takes more space than an integer.
+
+541
+01:02:16.170 --> 01:02:18.360
+Victor Yu: As if it's an integer. Okay.
+
+542
+01:02:19.500 --> 01:02:28.590
+Victor Yu: That's all you need to know if you wanted to know more about how he actually got stored. You can search online and it will give you, you know, details, especially when I'm going to get into this
+
+543
+01:02:30.480 --> 01:02:40.620
+Victor Yu: Okay, so let me finish a wrap up this class by talking a little bit about naming variables. Okay, so this is very important because
+
+544
+01:02:42.600 --> 01:02:54.510
+Victor Yu: As we saw earlier, you can name your variable any way you want. You can call it x ABC or x, y, z or whatever you want to call it as long as you don't use any of the reserved keywords.
+
+545
+01:02:55.170 --> 01:03:14.280
+Victor Yu: However, in practice, the name, you should describe the purpose can lock volume is certainly better than CV, right, especially when your code is going to be read by other people who didn't like the code right you you just make it easier
+
+546
+01:03:15.930 --> 01:03:18.660
+Victor Yu: For other people, including yourself right it
+
+547
+01:03:20.880 --> 01:03:33.990
+Victor Yu: You know weeks later, a month later, you look at your code again and kind of forget what what what the program does. So use these simple rule to name your variable.
+
+548
+01:03:35.520 --> 01:03:38.100
+Victor Yu: variable name must start with a letter or underscore
+
+549
+01:03:41.520 --> 01:03:52.830
+Victor Yu: And then you continue with letter upper or lower case digits or the underscore. So in other words, if it's not, if it's not the first letters of digits as fine right
+
+550
+01:03:54.930 --> 01:03:59.280
+Victor Yu: Remember to Java is case sensitive. So upper or lower case different
+
+551
+01:04:00.930 --> 01:04:05.130
+Victor Yu: Cannot use other symbols like question market plus percentage sign or anything.
+
+552
+01:04:06.900 --> 01:04:08.190
+Victor Yu: And no spaces allowed
+
+553
+01:04:09.900 --> 01:04:12.570
+Victor Yu: If you have to use two words or multiple words.
+
+554
+01:04:13.680 --> 01:04:20.160
+Victor Yu: To name a variable just use the so called camel a hump expression you separate words with
+
+555
+01:04:22.680 --> 01:04:34.590
+Victor Yu: What's called camel hump. So we saw earlier can't put pack right three words um you capitalize
+
+556
+01:04:36.750 --> 01:04:39.030
+Victor Yu: The first letter of each word
+
+557
+01:04:40.440 --> 01:04:45.030
+Victor Yu: Makes it look like a camels hump. Hey, um,
+
+558
+01:04:46.320 --> 01:04:48.120
+Victor Yu: So that's pretty much
+
+559
+01:04:49.590 --> 01:04:57.840
+Victor Yu: A all the rules governing the naming convention, not very complex. Otherwise, it's going to be. Now in this class.
+
+560
+01:04:59.010 --> 01:05:05.040
+Victor Yu: Sometimes in order to focus. I want you to focus on the concepts, rather than, you know,
+
+561
+01:05:07.830 --> 01:05:14.370
+Victor Yu: Just making the program kind of meaningful or something I intentionally use x, y, z to represent variable.
+
+562
+01:05:15.510 --> 01:05:17.550
+Victor Yu: That's just for the class. Okay.
+
+563
+01:05:18.870 --> 01:05:21.690
+Victor Yu: Also, you know, some other times you know that
+
+564
+01:05:23.010 --> 01:05:24.420
+Victor Yu: Variable is just
+
+565
+01:05:25.500 --> 01:05:44.760
+Victor Yu: Use like a temporary things like maybe a counters, or a loop counters are some things you can also use, you know, non descriptive i j k x, y, z, etc. Okay. All right. So time is up. Let's just stop right here. I'm gonna make a note here um
+
+566
+01:05:47.010 --> 01:06:08.430
+Victor Yu: So if you I have extended the the quits to the 30th tomorrow. Alright then, next quiz is going to be, if it's not already posted and then you usually have another week or so. So it will be you sometime early next week. All right. Okay. So we'll continue a the data types.
+
+567
+01:06:09.810 --> 01:06:12.570
+Victor Yu: Wednesday. I'm sorry thirsty.
+
+568
+01:06:13.680 --> 01:06:14.160
+Victor Yu: All right.
+
+569
+01:06:15.420 --> 01:06:16.800
+Victor Yu: Any question before we
+
+570
+01:06:18.120 --> 01:06:18.540
+Victor Yu: Quit
+
+571
+01:06:19.560 --> 01:06:21.720
+Victor Yu: All right. Thank you. Thank you. Dylan.
+
+572
+01:06:24.210 --> 01:06:24.870
+Victor Yu: All right, bye.
+
